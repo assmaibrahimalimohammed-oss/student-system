@@ -2,19 +2,26 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>الصفحة الرئيسية</title>
+    <title>تسجيل الدخول</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>مرحبا بك في النظام الجامعي</h1>
-        <p>الرقم الجامعي: 2026</p>
-        
-        <div class="menu">
-            <a href="query.html" class="btn btn-blue">استعلام عن النتيجة</a>
-            <a href="contact.html" class="btn btn-blue">اتصل بنا</a>
-            <a href="login.html" class="btn btn-red">تسجيل خروج</a>
-        </div>
+    
+    <div class="login-container">
+<h2>  تسجيل الدخول</h2>
+<form onsubmit="handlelogin(event)">
+<input type="text" id="studentId"placeholder="الرقم الجامعي"required>
+ <input type="password" id="password"placeholder="كلمه السر"required>
+ <button type="submit" class="btn btn-blue">دخول</button>
+</form>
     </div>
+ 
+    <script>
+function handlelogin(event){
+event.preventDefault();
+
+window.location.href ="main.html";
+}
+</script>
 </body>
 </html>
