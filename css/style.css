@@ -1,9 +1,17 @@
 body { 
-    font-family: Arial; 
+    font-family: Tahoma;
     background: #f0f4f8; 
     text-align: center; 
     padding: 50px; 
     direction: rtl;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 { color: #1a2a3a; }
@@ -19,4 +27,5 @@ h1 { color: #1a2a3a; }
 }
 
 .btn-blue { background: #00aaff; } /* ازرق */
-.btn-red { background: #e63946; }  /* احمر */
+.btn-red { background: #e63946; } /* احمر */
+.btn-green { background: #28a745; } /* اخضر */
