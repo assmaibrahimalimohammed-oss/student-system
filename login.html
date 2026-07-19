@@ -7,18 +7,20 @@
 </head>
 <body>
     
-    <div class"login-container">
+    <div class="login-container">
 <h2>  تسجيل الدخول</h2>
 <form onsubmit="handlelogin(event)">
 <input type="text" id="studentId"placeholder="الرقم الجامعي"required>
  <input type="password" id="password"placeholder="كلمه السر"required>
  <button type="submit" class="btn btn-blue">دخول</button>
+</form>
+    </div>
  
     <script>
 function handlelogin(event){
 event.preventDefault();
 
-window.location.href ="login.html";
+window.location.href ="main.html";
 }
 </script>
 </body>
