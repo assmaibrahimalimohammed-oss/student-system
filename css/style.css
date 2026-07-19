@@ -1,0 +1,22 @@
+body { 
+    font-family: Arial; 
+    background: #f0f4f8; 
+    text-align: center; 
+    padding: 50px; 
+    direction: rtl;
+}
+
+h1 { color: #1a2a3a; }
+
+.btn {
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-blue { background: #00aaff; } /* ازرق */
+.btn-red { background: #e63946; }  /* احمر */
