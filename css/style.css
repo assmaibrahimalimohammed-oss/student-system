@@ -5,7 +5,7 @@ body {
     padding: 50px; 
     direction: rtl;
 }
-.container {
+login.container {
     background: white;
     padding: 30px;
     border-radius: 10px;
