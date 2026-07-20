@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>الصفحة الرئيسية</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<title>الصفحة الرئيسية - نظام الطالب</title>
+<style>
+  body { font-family: Tahoma; background: #f0f4f8; margin: 0; }
+  .header { background: #004080; color: white; padding: 15px; display: flex; justify-content: space-between; }
+  .container { padding: 30px; text-align: center; }
+  .btn { background: white; border: 2px solid #004080; border-radius: 10px; padding: 20px; margin: 15px; width: 250px; display: inline-block; cursor: pointer; font-size: 18px; text-decoration: none; color: black; }
+  .btn:hover { background: #004080; color: white; }
+  .notif { background: #fff3cd; padding: 10px; margin: 20px; border-radius: 5px; }
+</style>
 </head>
 <body>
-    <div class="login-container">
-        <h2>مرحبا بك</h2>
-        <p>تم تسجيل الدخول بنجاح</p>
-        <br>
-        <button class="btn btn-blue" onclick="location.href='index.html'">تسجيل خروج</button>
-    </div>
+
+<div class="header">
+  <div>مرحباً احمد محمد علي | رقم الطالب: 2026001</div>
+  <a href="login.html" style="color:white">تسجيل الخروج</a>
+</div>
+
+<div class="container">
+  <h2>القائمة الرئيسية</h2>
+  
+  <a class="btn" href="schedule.html">📅 الجدول الدراسي</a>
+  <a class="btn" href="result.html">📊 النتائج والدرجات</a>
+  <a class="btn" href="register.html">📝 التسجيل</a>
+  <a class="btn" href="profile.html">👤 الملف الشخصي</a>
+
+  <div class="notif">
+    <b>تنبيهات:</b> دفع الرسوم قبل 30/4 | نتيجة السمستر نزلت
+  </div>
+</div>
+
 </body>
 </html>
