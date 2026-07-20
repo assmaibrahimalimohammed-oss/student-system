@@ -56,3 +56,4 @@ input {
 .btn-green:hover {
     background: #218838;
 }
+.btn-red { background: #dc3545; color: white; }
